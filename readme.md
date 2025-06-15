@@ -40,18 +40,14 @@ face-recognition-system/
 
 ### ✅ Requirements
 
+Install Cmake
+`https://cmake.org/download/`
+
+Install dlib
+`https://github.com/z-mahmud22/Dlib_Windows_Python3.x`
+
 - Python 3.8+
-- `pip install -r requirements.txt` (see below)
-
----
-
-### 📦 Install Dependencies
-
-```bash
-pip install flask flask-cors opencv-python face-recognition numpy
-```
-
-> Note: You may need `dlib` installed with CMake if using Linux.
+- `pip install -r requirements.txt`
 
 ---
 
