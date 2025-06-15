@@ -1,6 +1,23 @@
-flask==2.3.3
-flask-cors==4.0.0
-opencv-python==4.8.1.78
-face-recognition==1.3.0
-numpy==1.24.3
-Pillow==10.0.1
+# Enhanced Face Recognition API Requirements
+
+# Core dependencies - using compatible versions
+Flask>=2.3.0,<3.0.0
+flask-cors>=4.0.0,<5.0.0
+opencv-python>=4.8.0,<5.0.0
+face-recognition>=1.3.0,<2.0.0
+numpy>=1.22.0,<2.0.0      # Compatible with both TTS and face-recognition
+Pillow>=10.0.0,<11.0.0
+
+# Enhanced features
+mediapipe>=0.10.0,<1.0.0  # For face alignment and quality analysis
+scikit-learn>=1.3.0,<2.0.0  # For clustering and advanced matching
+scipy>=1.11.0,<2.0.0      # Scientific computing support
+
+# Optional: For better face recognition models
+# torch>=2.0.0,<3.0.0     # Uncomment for PyTorch-based models
+# torchvision>=0.15.0,<1.0.0  # Uncomment for PyTorch vision
+# facenet-pytorch>=2.5.0,<3.0.0  # Uncomment for FaceNet
+
+# Development and logging - using compatible versions
+python-dotenv>=1.0.0,<2.0.0  # Environment variables
+requests>=2.32.0,<3.0.0   # Compatible with anipy-api and fastanime
